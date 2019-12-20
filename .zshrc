@@ -1,13 +1,13 @@
 #RUN echo "alias d='dropbox'" >> ~/.zshrc
 #RUN echo "alias src='. ~/.zshrc'" >> ~/.zshrc
-#RUN echo "curl -L https://raw.githubusercontent.com/xiote/managed-files/master/.zshrc -o ~/.MyZshrc;" >> ~/.zshrc
+#RUN echo "curl -L https://raw.githubusercontent.com/xiote/zsh/master/.zshrc -o ~/.MyZshrc;" >> ~/.zshrc
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
 
 # vi
 vcnf() {
     
     rm ~/.vimrc
-    curl -L https://raw.githubusercontent.com/xiote/managed-files/master/.vimrc -o ~/.MyVimrc
+    curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.MyVimrc
     ln -s ~/.MyVimrc ~/.vimrc
     
     rm -rf ~/.vim/pack/plugins/start/vimwiki;
