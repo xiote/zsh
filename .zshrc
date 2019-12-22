@@ -30,3 +30,6 @@ gcnf(){
     git config --global user.email "xiote@nate.com"
 }
 
+kcnf(){
+    curl -L https://raw.githubusercontent.com/xiote/karabiner/master/karabiner.json -o ~/.config/karabiner/karabiner.json
+}
