@@ -50,3 +50,25 @@ gcnf(){
     git config --global user.email "xiote@nate.com"
 }
 
+#ub
+ubconn() {
+    if [ $# -eq 0 ]
+    then
+        echo "ubssh <linux|mb|mn>"
+        return;
+    fi
+    docker exec -it --workdir /root $1 /bin/zsh
+}
+
+ubcnf() {
+    if [ $# -eq 0 ]
+    then
+        echo "ubcnf <linux|mb|mn>"
+        return;
+    fi
+    docker rm $1 -f;
+    docker pull xiote78/ubuntu:18.04-custom;
+    docker run -itd --hostname $1 --name $1 xiote78/ubuntu:18.04-custom /bin/bash;
+    docker container ls -a;
+}
+
