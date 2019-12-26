@@ -24,7 +24,21 @@ vcnf() {
     
 }
 
-gcnf(){
+pcnf(){
+    rm -rf ~/github.com/xiote/vim
+    mkdir -p ~/github.com/xiote/vim
+    git clone http://github.com/xiote/vim ~/github.com/xiote/vim
+
+    rm -rf ~/github.com/xiote/zsh
+    mkdir -p ~/github.com/xiote/zsh
+    git clone http://github.com/xiote/zsh ~/github.com/xiote/zsh
+
+    rm -rf ~/github.com/xiote/karabiner
+    mkdir -p ~/github.com/xiote/karabiner
+    git clone http://github.com/xiote/karabiner ~/github.com/xiote/karabiner
+}
+
+gcnf(){ 
     git config --global credential.helper cache
     git config --global user.name "xiote"
     git config --global user.email "xiote@nate.com"
