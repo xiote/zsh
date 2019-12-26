@@ -71,4 +71,3 @@ ubcnf() {
     docker run -itd --hostname $1 --name $1 xiote78/ubuntu:18.04-custom /bin/bash;
     docker container ls -a;
 }
-
