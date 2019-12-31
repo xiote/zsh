@@ -5,6 +5,11 @@
 
 #project
 pcnf(){
+
+    git config --global credential.helper cache
+    git config --global user.name "xiote"
+    git config --global user.email "xiote@nate.com"
+
     rm -rf ~/github.com/xiote/vim
     mkdir -p ~/github.com/xiote/vim
     git clone http://github.com/xiote/vim ~/github.com/xiote/vim
@@ -47,13 +52,6 @@ vcnf() {
     
     rm -rf ~/.vim/pack/plugins/start/w3m.vim;
     #git clone https://github.com/yuratomo/w3m.vim.git ~/.vim/pack/plugins/start/w3m.vim;
-}
-
-#git
-gcnf(){ 
-    git config --global credential.helper cache
-    git config --global user.name "xiote"
-    git config --global user.email "xiote@nate.com"
 }
 
 #ub
