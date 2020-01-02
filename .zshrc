@@ -57,7 +57,7 @@ vcnf() {
 ubzsh() {
     if [ $# -eq 0 ]
     then
-        echo "ubssh <linux|mb|mn>"
+        echo "ubzsh <linux|mb|mn>"
         return;
     fi
     docker exec -it --workdir /root $1 /bin/zsh
