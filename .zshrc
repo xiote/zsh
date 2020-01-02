@@ -3,13 +3,14 @@
 #RUN echo "curl -L https://raw.githubusercontent.com/xiote/zsh/master/.zshrc -o ~/.MyZshrc;" >> ~/.zshrc
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
 
-#project
-pcnf(){
-
+gcnf(){
     git config --global credential.helper cache
     git config --global user.name "xiote"
     git config --global user.email "xiote@nate.com"
+}
 
+#project
+pcnf(){
     rm -rf ~/github.com/xiote/vim
     mkdir -p ~/github.com/xiote/vim
     git clone http://github.com/xiote/vim ~/github.com/xiote/vim
