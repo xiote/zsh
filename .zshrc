@@ -55,7 +55,7 @@ vcnf() {
 }
 
 #ub
-ubconn() {
+ubzsh() {
     if [ $# -eq 0 ]
     then
         echo "ubssh <linux|mb|mn>"
