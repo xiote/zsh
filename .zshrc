@@ -4,7 +4,6 @@
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
 
 #git
-#
 gcnf(){
     git config --global credential.helper cache
     git config --global user.name "xiote"
