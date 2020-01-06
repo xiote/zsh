@@ -53,9 +53,6 @@ vimcnf() {
     curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.MyVimrc
     ln -s ~/.MyVimrc ~/.vimrc
     
-    rm -rf ~/.vim/pack/plugins/start/vimwiki;
-    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
-    
     rm -rf ~/.vim/pack/plugins/start/fugitive;
     git clone https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive;
 
@@ -67,6 +64,9 @@ vimcnf() {
     
     rm -rf ~/.vim/pack/plugins/start/w3m.vim;
     #git clone https://github.com/yuratomo/w3m.vim.git ~/.vim/pack/plugins/start/w3m.vim;
+    
+    rm -rf ~/.vim/pack/plugins/start/vimwiki;
+    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
 }
 
 #ub
