@@ -3,6 +3,8 @@
 #RUN echo "curl -L https://raw.githubusercontent.com/xiote/zsh/master/.zshrc -o ~/.MyZshrc;" >> ~/.zshrc
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
 
+export LC_ALL=C.UTF-8
+
 #git
 gitcnf(){
     git config --global credential.helper cache
