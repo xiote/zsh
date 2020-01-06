@@ -4,7 +4,7 @@
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
 
 #git
-gcnf(){
+gitcnf(){
     git config --global credential.helper cache
     git config --global user.name "xiote"
     git config --global user.email "xiote@nate.com"
@@ -32,12 +32,12 @@ prjcnf(){
 
 
 # karabiner
-kcnf(){
+karacnf(){
     curl -L https://raw.githubusercontent.com/xiote/karabiner/master/karabiner.json -o ~/.config/karabiner/karabiner.json
 }
 
 # vim
-vcnf() {
+vimcnf() {
     rm ~/.vimrc
     curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.MyVimrc
     ln -s ~/.MyVimrc ~/.vimrc
