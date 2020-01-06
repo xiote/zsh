@@ -60,7 +60,7 @@ vimcnf() {
     git clone https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive;
 
     rm -rf ~/.vim/pack/plugins/start/link.vim;
-    git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link;
+    git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link.vim;
     
     rm -rf ~/.vim/pack/plugins/start/ack.vim;
     #git clone https://github.com/mileszs/ack.vim.git ~/.vim/pack/plugins/start/ack.vim;
