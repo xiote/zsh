@@ -30,6 +30,10 @@ prjcnf(){
     rm -rf ~/github.com/xiote/wiki
     mkdir -p ~/github.com/xiote/wiki
     git clone http://github.com/xiote/wiki ~/github.com/xiote/wiki
+
+    rm -rf ~/github.com/xiote/link.vim
+    mkdir -p ~/github.com/xiote/link.vim
+    git clone http://github.com/xiote/link.vim ~/github.com/xiote/link.vim
 }
 
 
