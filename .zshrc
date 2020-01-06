@@ -1,4 +1,3 @@
-#RUN echo "alias d='dropbox'" >> ~/.zshrc
 #RUN echo "alias src='. ~/.zshrc'" >> ~/.zshrc
 #RUN echo "rm ~/.MyZshrc" >> ~/.zshrc
 #RUN echo "curl -L https://raw.githubusercontent.com/xiote/zsh/master/.zshrc -o ~/.MyZshrc;" >> ~/.zshrc
