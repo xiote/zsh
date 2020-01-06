@@ -54,20 +54,28 @@ vimrc(){
 }
 
 vimcnf() {
+    
+    rm -rf ~/.vim/pack/plugins/start/vimwiki;
+    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
+
     rm -rf ~/.vim/pack/plugins/start/fugitive;
     git clone https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive;
 
     rm -rf ~/.vim/pack/plugins/start/link.vim;
     git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link.vim;
     
+    rm -rf ~/.vim/pack/plugins/start/syntastic.vim
+    git clone https://github.com/vim-syntastic/syntastic.git ~/.vim/pack/plugins/start/syntastic.vim
+
+    rm -rf ~/.vim/pack/plugins/start/jdaddy.vim;
+    #git clone https://github.com/tpope/vim-jdaddy.git ~/.vim/pack/plugins/start/jdaddy.vim;
+
     rm -rf ~/.vim/pack/plugins/start/ack.vim;
     #git clone https://github.com/mileszs/ack.vim.git ~/.vim/pack/plugins/start/ack.vim;
     
     rm -rf ~/.vim/pack/plugins/start/w3m.vim;
     #git clone https://github.com/yuratomo/w3m.vim.git ~/.vim/pack/plugins/start/w3m.vim;
     
-    rm -rf ~/.vim/pack/plugins/start/vimwiki;
-    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
 }
 
 #ub
