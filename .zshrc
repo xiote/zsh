@@ -47,11 +47,13 @@ karacnf(){
 }
 
 # vim
-vimcnf() {
+vimrc(){
     rm ~/.vimrc
     curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.MyVimrc
     ln -s ~/.MyVimrc ~/.vimrc
-    
+}
+
+vimcnf() {
     rm -rf ~/.vim/pack/plugins/start/fugitive;
     git clone https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive;
 
