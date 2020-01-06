@@ -61,8 +61,8 @@ vimcnf() {
     rm -rf ~/.vim/pack/plugins/start/link.vim;
     git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link.vim;
     
-    rm -rf ~/.vim/pack/plugins/start/jdaddy;
-    git clone https://tpope.io/vim/jdaddy.git ~/.vim/pack/plugins/start/jdaddy;
+    rm -rf ~/.vim/pack/plugins/start/jdaddy.vim;
+    git clone https://github.com/tpope/vim-jdaddy.git ~/.vim/pack/plugins/start/jdaddy.vim;
 
     rm -rf ~/.vim/pack/plugins/start/ack.vim;
     #git clone https://github.com/mileszs/ack.vim.git ~/.vim/pack/plugins/start/ack.vim;
