@@ -11,7 +11,7 @@ gcnf(){
 }
 
 #project
-pcnf(){
+prjcnf(){
     rm -rf ~/github.com/xiote/vim
     mkdir -p ~/github.com/xiote/vim
     git clone http://github.com/xiote/vim ~/github.com/xiote/vim
