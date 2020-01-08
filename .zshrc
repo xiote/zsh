@@ -65,11 +65,14 @@ vimcnf() {
     rm -rf ~/.vim/pack/plugins/start/link.vim;
     git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link.vim;
     
-    rm -rf ~/.vim/pack/plugins/start/syntastic.vim
-    git clone https://github.com/vim-syntastic/syntastic.git ~/.vim/pack/plugins/start/syntastic.vim
+    rm -rf ~/.vim/pack/plugins/start/syntastic
+    git clone https://github.com/vim-syntastic/syntastic.git ~/.vim/pack/plugins/start/syntastic
 
-    rm -rf ~/.vim/pack/plugins/start/go.vim
-    git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/go.vim
+    rm -rf ~/.vim/pack/plugins/start/vim-go
+    git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
+
+    rm -rf ~/.vim/pack/plugins/start/vim-cursorword
+    git clone https://github.com/itchyny/vim-cursorword.git ~/.vim/pack/plugins/start/vim-cursorword
 
     rm -rf ~/.vim/pack/plugins/start/jdaddy.vim;
     #git clone https://github.com/tpope/vim-jdaddy.git ~/.vim/pack/plugins/start/jdaddy.vim;
