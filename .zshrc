@@ -10,6 +10,8 @@ gitcnf(){
     git config --global credential.helper cache
     git config --global user.name "xiote"
     git config --global user.email "xiote@nate.com"
+    git config --global alias.cout checkout 
+    git config --global alias.br branch
 }
 
 #project
