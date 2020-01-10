@@ -16,28 +16,12 @@ gitcnf(){
 
 #project
 prjcnf(){
-    rm -rf ~/github.com/xiote/vim
-    mkdir -p ~/github.com/xiote/vim
+    rm -rf ~/github.com/xiote
     git clone http://github.com/xiote/vim ~/github.com/xiote/vim
-
-    rm -rf ~/github.com/xiote/zsh
-    mkdir -p ~/github.com/xiote/zsh
     git clone http://github.com/xiote/zsh ~/github.com/xiote/zsh
-
-    rm -rf ~/github.com/xiote/karabiner
-    mkdir -p ~/github.com/xiote/karabiner
     git clone http://github.com/xiote/karabiner ~/github.com/xiote/karabiner
-
-    rm -rf ~/github.com/xiote/wiki
-    mkdir -p ~/github.com/xiote/wiki
     git clone http://github.com/xiote/wiki ~/github.com/xiote/wiki
-
-    rm -rf ~/github.com/xiote/link.vim
-    mkdir -p ~/github.com/xiote/link.vim
     git clone http://github.com/xiote/link.vim ~/github.com/xiote/link.vim
-
-    rm -rf ~/github.com/xiote/ubuntu
-    mkdir -p ~/github.com/xiote/ubuntu
     git clone http://github.com/xiote/ubuntu ~/github.com/xiote/ubuntu
 }
 
@@ -57,14 +41,17 @@ vimrc(){
 }
 
 vimcnf() {
-    rm -rf ~/.vim/pack/plugins/start    
-    mkdir -p ~/.vim/pack/plugins/start
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
-    git clone https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive;
-    git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link.vim;
-    git clone https://github.com/vim-syntastic/syntastic.git ~/.vim/pack/plugins/start/syntastic
-    git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
+    rm -rf ~/.vim/pack/plugins/start    
+#    mkdir -p ~/.vim/pack/plugins/start
+
+#    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
+#    git clone https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive;
+#    git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link.vim;
+#    git clone https://github.com/vim-syntastic/syntastic.git ~/.vim/pack/plugins/start/syntastic
+#    git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
 }
 
 #ub
