@@ -5,6 +5,14 @@
 
 export LC_ALL=ko_KR.UTF-8
 
+#go
+gocnf(){
+    rm -rf ~/go/workspace
+    git clone http://github.com/xiote/go ~/go/workspace/src
+    export GOPATH=~/go/workspace
+    export PATH=$PATH:$GOPATH/bin
+}
+
 #git
 gitcnf(){
     git config --global credential.helper cache
@@ -16,7 +24,7 @@ gitcnf(){
 }
 
 #project
-prjcnf(){
+projcnf(){
     rm -rf ~/github.com/xiote
     git clone http://github.com/xiote/vim ~/github.com/xiote/vim
     git clone http://github.com/xiote/zsh ~/github.com/xiote/zsh
