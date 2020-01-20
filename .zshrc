@@ -31,6 +31,7 @@ projcnf(){
     git clone http://github.com/xiote/karabiner ~/github.com/xiote/karabiner
     git clone http://github.com/xiote/wiki ~/github.com/xiote/wiki
     git clone http://github.com/xiote/ubuntu ~/github.com/xiote/ubuntu
+    git clone http://github.com/xiote/myvim ~/github.com/xiote/myvim
 }
 
 
