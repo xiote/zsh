@@ -30,7 +30,6 @@ projcnf(){
     git clone http://github.com/xiote/zsh ~/github.com/xiote/zsh
     git clone http://github.com/xiote/karabiner ~/github.com/xiote/karabiner
     git clone http://github.com/xiote/wiki ~/github.com/xiote/wiki
-    git clone http://github.com/xiote/link.vim ~/github.com/xiote/link.vim
     git clone http://github.com/xiote/ubuntu ~/github.com/xiote/ubuntu
 }
 
