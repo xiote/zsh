@@ -3,6 +3,8 @@
 #RUN echo "curl -L https://raw.githubusercontent.com/xiote/zsh/master/.zshrc -o ~/.MyZshrc;" >> ~/.zshrc
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
 
+alias cls='clear'
+
 export LC_ALL=ko_KR.UTF-8
 
 #go
