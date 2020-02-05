@@ -52,10 +52,10 @@ vimrc(){
 }
 
 vimcnf() {
+    rm -rf ~/.vim
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-    rm -rf ~/.vim/plugged
 #    mkdir -p ~/.vim/pack/plugins/start
 
 #    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
