@@ -45,17 +45,14 @@ karacnf(){
 }
 
 # vim
-vimrc(){
-    rm ~/.vimrc
-    curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.MyVimrc
-    ln -s ~/.MyVimrc ~/.vimrc
-}
-
 vimcnf() {
     rm -rf ~/.vim
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
+        
+    rm ~/.vimrc
+    curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.MyVimrc
+    ln -s ~/.MyVimrc ~/.vimrc
 #    mkdir -p ~/.vim/pack/plugins/start
 
 #    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
