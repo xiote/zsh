@@ -5,6 +5,7 @@
 
 alias cl='clear'
 alias cls='cl;ls'
+alias cdgo='cd ~/go/workspace/src/github.com/xiote/'
 
 alias gi='git init'
 alias ga='git add'
