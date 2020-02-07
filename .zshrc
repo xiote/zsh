@@ -6,6 +6,14 @@
 alias cl='clear'
 alias cls='cl;ls'
 
+alias gi='git init'
+alias ga='git add'
+alias gc='git commit'
+alias gu='git pull'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+
 export LC_ALL=ko_KR.UTF-8
 
 #go
