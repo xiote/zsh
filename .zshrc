@@ -4,6 +4,7 @@
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
 
 alias cl='clear'
+alias cls='cl;ls'
 
 export LC_ALL=ko_KR.UTF-8
 
