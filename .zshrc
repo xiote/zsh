@@ -6,13 +6,16 @@
 alias cl='clear'
 alias cdgo='cd ~/go/workspace/src/github.com/xiote/'
 
-alias gi='git init'
-alias ga='git add'
-alias gc='git commit'
-alias gu='git pull'
-alias gp='git push'
-alias gl='git log'
-alias gs='git status'
+alias gcloudcompute='gcloud compute'
+alias gc='gcloud compute'
+
+alias gitinit='git init'
+alias gitadd='git add'
+alias gitcommit='git commit'
+alias gitpull='git pull'
+alias gitpush='git push'
+alias gitlog='git log'
+alias gitstatus='git status'
 
 export LC_ALL=ko_KR.UTF-8
 
