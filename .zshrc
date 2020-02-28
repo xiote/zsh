@@ -8,6 +8,7 @@ alias cdgo='cd ~/go/workspace/src/github.com/xiote/'
 
 alias gcloudcomputeinstancescreate='gcloud compute instances create'
 alias createinstance='gcloud compute instances create'
+alias crinst='gcloud compute instances create'
 
 alias gitinit='git init'
 alias gitadd='git add'
