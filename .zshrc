@@ -18,6 +18,10 @@ alias gitpush='git push'
 alias gitlog='git log'
 alias gitstatus='git status'
 
+alias ansibleplaybook='ansible-playbook'
+alias playbook='ansible-playbook'
+alias pb='ansible-playbook'
+
 export LC_ALL=ko_KR.UTF-8
 
 #go
