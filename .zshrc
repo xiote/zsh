@@ -2,6 +2,9 @@
 #RUN echo "rm ~/.MyZshrc" >> ~/.zshrc
 #RUN echo "curl -L https://raw.githubusercontent.com/xiote/zsh/master/.zshrc -o ~/.MyZshrc;" >> ~/.zshrc
 #RUN echo "source ~/.MyZshrc" >> ~/.zshrc
+# locale
+# https://www.44bits.io/ko/post/setup_linux_locale_on_ubuntu_and_debian_container
+#RUN echo "export LC_ALL=C.UTF-8" >> ~/.zshrc
 
 alias cl='clear'
 alias cdgo='cd ~/go/workspace/src/github.com/xiote/'
@@ -21,8 +24,6 @@ alias gitstatus='git status'
 alias ansibleplaybook='ansible-playbook'
 alias playbook='ansible-playbook'
 alias pb='ansible-playbook'
-
-export LC_ALL=ko_KR.UTF-8
 
 #go
 gocnf(){
