@@ -50,6 +50,7 @@ projcnf(){
     git clone http://github.com/xiote/wiki ~/github.com/xiote/wiki
     git clone http://github.com/xiote/ubuntu ~/github.com/xiote/ubuntu
     git clone http://github.com/xiote/myvim ~/github.com/xiote/myvim
+    git clone http://github.com/xiote/ansible ~/github.com/xiote/ansible
 }
 
 
