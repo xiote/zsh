@@ -39,6 +39,7 @@ gitcnf(){
     git config --global alias.cout checkout 
     git config --global alias.br branch
     git config --global alias.st status
+    git config --global core.editor "vim"
 }
 
 #project
