@@ -69,12 +69,9 @@ alias pfsv='kubectl port-forward --address 192.168.0.111'
 alias dsnd='kubectl describe node'
 alias lnd='kubectl get nodes'
 
-
 #go
-gocnf(){
-    export GOPATH=~/go/workspace
-    export PATH=$PATH:$GOPATH/bin
-}
+export GOPATH=~/go/workspace
+export PATH=$PATH:$GOPATH/bin
 
 #git
 gitcnf(){
