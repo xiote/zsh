@@ -73,6 +73,8 @@ alias lnd='kubectl get nodes'
 export GOPATH=~/go/workspace
 export PATH=$PATH:$GOPATH/bin
 
+export BOOTSTRAP_SERVERS="localhost:9092"
+
 #git
 gitcnf(){
     git config --global credential.helper cache
