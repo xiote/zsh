@@ -69,6 +69,9 @@ alias pfsv='kubectl port-forward --address 192.168.0.111'
 alias dsnd='kubectl describe node'
 alias lnd='kubectl get nodes'
 
+#swift
+export PATH=$PATH:/Users/xiote/github.com/apple/sourcekit-lsp/.build/debug/
+
 #go
 export GOPATH=~/go/workspace
 export PATH=$PATH:$GOPATH/bin
