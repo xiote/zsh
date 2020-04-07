@@ -71,7 +71,7 @@ alias lnd='kubectl get nodes'
 
 #go
 export GOPATH=~/go/workspace
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp
 
 export BOOTSTRAP_SERVERS="localhost:9092"
 
