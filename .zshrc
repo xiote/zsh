@@ -69,9 +69,11 @@ alias pfsv='kubectl port-forward --address 192.168.0.111'
 alias dsnd='kubectl describe node'
 alias lnd='kubectl get nodes'
 
-# https://unix.stackexchange.com/questions/93144/exit-vim-more-quickly
-bind -r '\C-s'
-stty -ixon
+if [[ $- == *i* ]]; then # Running in an interactive shell
+  # Disable XON/XOFF flow control with C-S/C-Q
+  stty -ixon
+  stty stop undef
+fi
 
 # swift
 export PATH=$PATH:/Users/xiote/github.com/apple/sourcekit-lsp/.build/debug/
