@@ -80,7 +80,7 @@ export PATH=$PATH:/Users/xiote/github.com/apple/sourcekit-lsp/.build/debug/
 
 # go
 export GOPATH=~/go/workspace
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 
 export BOOTSTRAP_SERVERS="localhost:9092"
 
